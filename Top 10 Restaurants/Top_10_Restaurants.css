@@ -1,0 +1,221 @@
+p {
+  font-style: italic;
+  text-align: justify;
+}
+
+h3 {
+  font-weight: bold;
+  color: IndianRed;
+}
+
+h1 {
+  color: IndianRed;
+  font-family: cursive;
+  font-size: 450%;
+  border-bottom: dotted;
+}
+
+.container1 {
+  float: left;
+  flex: 1;
+  padding: 10px;
+}
+
+.container2 {
+  float: right;
+  flex: 1;
+  padding:10px;
+}
+
+div{
+  padding: 10px;
+}
+
+#Main {
+flex-flow: row;
+}
+
+Main{
+  display: flex;
+  text-align: center;
+  flex-flow: column wrap;
+}
+
+@media all and (min-width: 40px) {
+  .main {flex: 2;}
+
+  .RC {order: 10}
+  .SW {order: 9}
+  .CG {order: 8}
+  .Out {order: 7}
+  .Chuck {order: 6}
+  .ET {order: 5}
+  .NOBU {order: 4}
+  .PF {order: 3}
+  .CA {order: 2}
+  .FG {order: 1}
+}
+
+#Footer{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 0, .4);
+  /*border-color: lightgrey;*/
+  padding:5px;
+  margin-top: 50px;
+}
+
+h1{
+  text-align: center;
+}
+
+.RClogo {
+  float: left;
+}
+
+.SWlogo {
+  float: left;
+}
+
+.CGlogo {
+  float: left;
+}
+
+.Outlogo {
+  float: left;
+}
+
+.Chucklogo {
+  float: left;
+}
+
+.ETlogo {
+  float: left;
+}
+
+.ET {
+  clear: both;
+  content: " ";
+  display: block;
+  overflow: auto;
+}
+
+.NOBUlogo {
+  float: left;
+}
+
+.NOBU {
+  clear: left;
+  overflow: auto;
+}
+
+.PFlogo {
+  float: left;
+}
+
+.PF {
+  overflow: auto;
+}
+
+.CAlogo {
+  float: left;
+  border-radius: 80%;
+}
+
+.CA {
+  overflow: auto;
+}
+
+.FGlogo {
+  float: left;
+}
+
+.FG {
+  overflow: auto;
+}
+
+.RClogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.SWlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.CGlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.Outlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.Chucklogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.ETlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.NOBUlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.PFlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.CAlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.FGlogo:hover {
+  animation-name: Pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+@keyframes Pulse {
+  0% {transform: scale(1);}
+  33% {transform: scale(.80);}
+  66% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
+.socialMedia {
+  border-radius: 50%;
+}
+
+.socialMedia:hover {
+    color: #FFF;
+    box-shadow: 1px 1px 3px #333;}
